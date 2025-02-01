@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mainTest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Provided Materials - Lab 1\Game.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

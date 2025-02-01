@@ -15,30 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Provided Materials - Lab 1\Game.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Provided Materials - Lab 1\main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Provided Materials - Lab 1\Window.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Entity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Provided Materials - Lab 1\Game.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Provided Materials - Lab 1\Vector2.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Provided Materials - Lab 1\Window.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Entity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -27,7 +27,7 @@ Game::Game()
 // 2.  Define an empty default destructor.
 Game::~Game()
 {
-
+	//TODO: delete
 }
 
 

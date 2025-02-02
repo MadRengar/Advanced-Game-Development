@@ -1,5 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "Game.h"
+#include <ctime>  // 添加 time 头文件
+#include <cstdlib> // 添加 srand 和 rand 头文件
 
 
 // Check here APIs for the SFML classes to be used in this LAB (all in here: https://www.sfml-dev.org/documentation/2.5.1/annotated.php):
@@ -13,20 +15,13 @@
 
 int main()
 {
-    //Declare an object of type "Game"
-    Game game;
-
-    // Simple game loop. Iterate _while_ the window of the game is not "done". Note getWindow() returns a pointer!
-    // Three steps per iteration:
-    //   1. Ask the game instance to handle the input.
-    //   2. Ask the game instance to update its state.
-    //   3. Ask the game instance to render.
+    srand(static_cast<unsigned int>(time(nullptr)));
+    Game game(10, 0.5f);
     while (!game.getWindow()->isWindowDone())
     {
         game.userInput(); // 处理输入
         game.update();    // 更新游戏状态
         game.render();    // 渲染内容
     }
-
     return 0;
 }

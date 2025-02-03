@@ -27,7 +27,7 @@ public:
 
 	// 获得-FPS文字对象
 	sf::Text& getGUIText();
-	// 
+	// 测试提交
 
 	// 标志-窗口关闭
 	bool isWindowDone() const { return isDone; }

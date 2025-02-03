@@ -1,7 +1,8 @@
 #include "Game.h"
 
 Game::Game(int entityCount, float entitySpeed)
-	: applicationWindow("Game Window", sf::Vector2u(800, 600)) {
+	: applicationWindow("Game Window", sf::Vector2u(800, 600)),
+	isPaused(false) {
 	// 创建 Entity 实例
 	for (int i = 0; i < entityCount; i++)
 	{
@@ -22,13 +23,23 @@ Game::~Game()
 
 void Game::userInput()
 {
-
+	/*暂停*/
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
+	{
+		isPaused = !isPaused;
+	}
 }
 
 void Game::update()
 {
+	if (isPaused)
+	{
+		return;
+	}
 	//updateMushroomMovement();
 	//mushroom->move();
+
+	/*实体更新 + 窗口更新*/
 	for (Entity* entity : entities)
 	{
 		entity->update();//move()改名为updat()以符合 Game Loop 设计模式
@@ -75,6 +86,11 @@ Window* Game::getWindow()
 //	mushroomSprite.move(mushroomMovement.x, mushroomMovement.y);
 //
 //}
+
+sf::Time Game::getElapsedTime() const {
+	return gameClock.getElapsedTime();
+}
+
 
 sf::Vector2f Game::getEntityPosition(int index) const {
 	if (index < 0 || index >= static_cast<int>(entities.size())) {

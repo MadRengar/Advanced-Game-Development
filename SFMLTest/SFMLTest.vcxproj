@@ -151,6 +151,13 @@ opengl32.lib;winmm.lib;gdi32.lib;%(AdditionalDependencies)</AdditionalDependenci
   <ItemGroup>
     <Image Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Provided Materials - Lab 1\mushroom50-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Font Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Lab 2 Materials\font\Amatic-Bold.ttf" />
+    <Font Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Lab 2 Materials\font\AmaticSC-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Lab 2 Materials\font\SIL Open Font License.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

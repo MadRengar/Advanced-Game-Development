@@ -47,4 +47,17 @@
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
+  <ItemGroup>
+    <Font Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Lab 2 Materials\font\Amatic-Bold.ttf">
+      <Filter>资源文件</Filter>
+    </Font>
+    <Font Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Lab 2 Materials\font\AmaticSC-Regular.ttf">
+      <Filter>资源文件</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\Users\MadRengar\Desktop\QMUL学习\Advanced Game Development\Labs\Lab 2 Materials\font\SIL Open Font License.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

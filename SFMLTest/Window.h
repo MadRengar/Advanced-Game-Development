@@ -25,11 +25,21 @@ public:
 
 	void redraw();
 
+	// 获得-FPS文字对象
+	sf::Text& getGUIText();
+	// 
+
+	// 标志-窗口关闭
 	bool isWindowDone() const { return isDone; }
+	// 标志-窗口全屏
 	bool isWindowFullscreen() const { return isFullscreen; }
+	// 设置-窗口大小
 	inline void setSize(const sf::Vector2u& size) { windowSize = size; }
+	// 获得-窗口大小
 	const sf::Vector2u& getWindowSize() const { return windowSize; }
+	// 设置-窗口名称
 	inline void setTitle(const std::string& t) { windowTitle = t; }
+	// 获得-窗口名称
 	const std::string& getTitle() const { return windowTitle; }
 
 private:
